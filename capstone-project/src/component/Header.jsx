@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      Header
+      <img src="logo.png" alt="Little Lemon Logo" />
     </header>
   );
 }

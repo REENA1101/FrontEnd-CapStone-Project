@@ -10,9 +10,9 @@ function App() {
     <>
        <h1>CAPSTONE PROJECT</h1>   
        <Header />
-      <Navigation />
-      <Main />
-      <Footer />
+       <Navigation />
+       <Main />
+       <Footer />
     </>
   );
 }
