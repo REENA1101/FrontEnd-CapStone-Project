@@ -8,7 +8,7 @@ import { Helmet } from 'react-helmet';
 
 function App() {
   return (
-    <>
+    <div className="container">
        <h1>CAPSTONE PROJECT</h1>  
         <Helmet>
           <meta name="description" content="Little Lemon is a charming restaurant offering delicious food and exceptional service." />
@@ -16,12 +16,12 @@ function App() {
           <meta property="og:description" content="Experience the taste of Little Lemon. Book your table now!" />
           <meta property="og:image" content="https://example.com/little-lemon-logo.png" />
         </Helmet> 
-
+          
           <Header />
           <Navigation />
           <Main />
           <Footer />
-    </>
+    </div>
   );
 }
 
