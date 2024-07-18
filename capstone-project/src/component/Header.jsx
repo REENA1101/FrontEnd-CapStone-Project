@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from '../images/logo.png';
 
 function Header() {
   return (
     <header>
-      <img src="./images/logo.png" alt="Little Lemon Logo" />
+      <img src={logo} alt="Little Lemon Logo" />
     </header>
   );
 }
