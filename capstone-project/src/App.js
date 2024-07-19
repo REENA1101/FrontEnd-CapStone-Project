@@ -6,6 +6,8 @@ import Footer from './component/Footer';
 import Navigation from './component/Navigation';
 import { Helmet } from 'react-helmet';
 import './styles.css';
+import Routess from './Routing/Routess';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
 
           <Header />
           <Navigation />
+          <Routess/>
           <Main />
           <Footer />
     </div>
