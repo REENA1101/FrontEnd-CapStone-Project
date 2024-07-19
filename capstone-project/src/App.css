@@ -21,9 +21,9 @@
 }
 
 /* Media queries for responsiveness */
-@media (min-width: 200px) {
+/* @media (min-width: 1000px) {
   .container {
     flex-direction: row;
-  }
+  } */
   /* Other media query styles */
-}
+/* } */
