@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Navigation() {
   return (
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/menu">Menu</a></li>
-                <li><a href="/contact">Contact</a></li>
+        <nav >
+            <ul >
+                <li ><a href="/">Home</a></li>
+                <li style={{ marginLeft: '120px'}}><a href="/about">About</a></li>
+                <li style={{ marginLeft: '120px'}}><a href="/menu">Menu</a></li>
+                <li style={{ marginLeft: '120px'}}><a href="/contact">Contact</a></li>
             </ul>
-    </nav>
+       </nav>
   )
 }
