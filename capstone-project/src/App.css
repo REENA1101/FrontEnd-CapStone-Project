@@ -21,7 +21,7 @@
 }
 
 /* Media queries for responsiveness */
-@media (min-width: 768px) {
+@media (min-width: 200px) {
   .container {
     flex-direction: row;
   }
