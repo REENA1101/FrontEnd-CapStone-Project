@@ -5,10 +5,9 @@ import BookingPage from '../component/BookingPage';
 function Routess() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/booking" element={<BookingPage />} />
-      {/* Other routes */}
-    </Routes>
+  <Route path="/" element={<HomePage />} />
+  <Route path="/booking" element={<BookingPage />} />
+</Routes>
   );
 }
 
