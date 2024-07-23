@@ -7,6 +7,7 @@ import Navigation from './component/Navigation';
 import { Helmet } from 'react-helmet';
 import './styles.css';
 import Routess from './Routing/Routess';
+import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
 
           <Header />
           <Navigation />
-          <Routess/>
+            <Router>
+              <Routess />
+            </Router>
           <Main />
           <Footer />
     </div>
