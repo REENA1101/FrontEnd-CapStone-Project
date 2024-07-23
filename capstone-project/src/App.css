@@ -1,15 +1,27 @@
 
 /* App.css */
+html{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+
 
 .container {
   align-items: center;
   display: flex;
   flex-direction: column;
   min-height: 300vh;
+  background-color: rgba(2, 101, 249, 0.639);
+
 }
 
 .header {
-  /* Header styles */
+
+}
+
+.container h1{
+  color: white;
 }
 
 .main {
