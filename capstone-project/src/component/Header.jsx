@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <img src={logo} alt="Little Lemon Logo" />
-      <p>LITTLE LEMON RESTAURANT</p>
+      <p>Little Lemon Restaurant</p>
     </header>
   );
 }

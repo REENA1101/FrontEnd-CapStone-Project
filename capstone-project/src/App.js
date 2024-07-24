@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 import './styles.css';
 import Routess from './Routing/Routess';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
+import HomePage from './component/HomePage';
 
 
 function App() {
@@ -20,12 +21,13 @@ function App() {
           <meta property="og:image" content="https://example.com/little-lemon-logo.png" />
         </Helmet>
 
-          
+
           <Navigation />
             <Router>
               <Routess />
             </Router>
           <LandingPage />
+          {/* <HomePage/> */}
           <Footer />
     </div>
   );
