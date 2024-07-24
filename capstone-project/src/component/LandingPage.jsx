@@ -1,19 +1,13 @@
 import React from 'react'
 import main1 from '../images/main1.png';
 import main2 from "../images/main2.png";
+import FoodSlider from './FunctionalComps/FoodSlider';
 
 export default function LandingPage() {
   return (
     <div className="landingpage">
-        
-              <div class="slider">
-        <div class="slide">
-          <img src="image1.jpg" alt="Food Image 1"/>
-        </div>
-        <div class="slide">
-          <img src="image2.jpg" alt="Food Image 2"/>
-        </div>
-        </div>
+
+        <FoodSlider/>
 
         <img src={main1} alt="Main1" />
           <div className='main2'>
