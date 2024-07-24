@@ -6,7 +6,7 @@ export default function Navigation() {
         <nav >
             <ul >
                 <Header />
-                <div class="search-container">
+                <div className="search-container">
                   <input type="text" placeholder="Search"></input>
                   {/* <button type="submit"><i class="fa fa-search"></i></button> */}
                 </div>
