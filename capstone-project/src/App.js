@@ -25,9 +25,7 @@ function App() {
             <Router>
               <Routess />
             </Router>
-          {/* <LandingPage /> */}
-          {/* <HomePage/> */}
-          <Footer />
+          <Footer/>
     </div>
   );
 }
