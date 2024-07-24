@@ -3,8 +3,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import image1 from '../../images/image1.jpg';
-import image2 from '../../images/image2.jpg';
-import image3 from '../../images/image3.jpg';
+import image2 from '../../images/image2.png';
+import image3 from '../../images/image3.png';
 import image4 from '../../images/image4.jpg';
 import image5 from '../../images/image5.jpg';
 
@@ -27,7 +27,7 @@ const FoodSlider = () => {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} style={{marginBottom:'40px'}}>
       {foodImages.map((image, index) => (
         <div key={index}>
           <img src={image} alt={`Food Image ${index + 1}`} />

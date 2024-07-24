@@ -1,8 +1,7 @@
-import HomePage from '../component/HomePage';
 import BookingPage from '../component/BookingPage';
 import About from '../component/Pages/About';
 import Contact from '../component/Pages/Contact';
-import Menu from '../component/Pages/Menu'
+import Menu from '../component/Pages/BookingForm'
 import Chicago from '../component/Pages/Chicago';
 import React from 'react';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';

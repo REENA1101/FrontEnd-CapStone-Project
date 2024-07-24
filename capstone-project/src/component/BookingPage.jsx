@@ -1,7 +1,10 @@
 import React from 'react'
+import BookingForm from './Pages/BookingForm'
 
 export default function BookingPage() {
   return (
-    <div>BookingPage</div>
+    <div>
+      <BookingForm/>
+    </div>
   )
 }

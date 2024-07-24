@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 import './styles.css';
 import Routess from './Routing/Routess';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
-import HomePage from './component/HomePage';
+
 
 
 function App() {
