@@ -8,6 +8,7 @@ export default function LandingPage() {
         <div className='main2'>
           <h1>LITTLE LEMON RESTAURANT </h1>
         </div>
+        <img src="" alt="Main2"/>
     </div>
   )
 }

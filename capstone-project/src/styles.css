@@ -36,6 +36,11 @@ h1 {
     border-radius: 8px;
   }
 
+  .landingpage div h1{
+    color:#ccc;
+    padding:80px;
+  }
+
 
   nav{
     margin-top: 0px;
