@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Main from './component/Main';
+import LandingPage from './component/LandingPage';
 import Footer from './component/Footer';
 import Navigation from './component/Navigation';
 import { Helmet } from 'react-helmet';
@@ -25,7 +25,7 @@ function App() {
             <Router>
               <Routess />
             </Router>
-          <Main />
+          <LandingPage />
           <Footer />
     </div>
   );

@@ -30,6 +30,12 @@ h1 {
     /* margin-left: -100px; */
   }
 
+  .landingpage div{
+    background-color: white;
+    color:black;
+    height: auto;
+  }
+
   nav{
     margin-top: 0px;
     margin-bottom: 0px;
