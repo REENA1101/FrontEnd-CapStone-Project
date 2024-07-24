@@ -207,7 +207,6 @@ nav ul li{
 }
 
 form {
- 
   width:900px;
   display: grid;
   gap: 1rem;
@@ -221,7 +220,7 @@ form {
 
 label {
   font-weight: bold;
-  color: #333;
+  color: #979797;
 }
 
 input, select {
@@ -229,10 +228,15 @@ input, select {
   border-bottom: 1px solid #ccc;
   padding: 0.5rem;
   outline: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: rgba(232, 97, 35, 0.895);
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: #979797;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
@@ -241,6 +245,6 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0069d9;
+  background-color: rgba(232, 97, 35, 0.895);
 }
 
