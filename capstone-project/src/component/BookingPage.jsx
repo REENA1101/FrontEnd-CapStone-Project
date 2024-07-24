@@ -3,7 +3,7 @@ import BookingForm from './Pages/BookingForm'
 
 export default function BookingPage() {
   return (
-    <div>
+    <div className='booking'>
       <BookingForm/>
     </div>
   )
