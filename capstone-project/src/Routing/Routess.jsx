@@ -6,11 +6,12 @@ import Menu from '../component/Pages/Menu'
 import Chicago from '../component/Pages/Chicago';
 import React from 'react';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
+import LandingPage from '../component/LandingPage';
 
 
 export default function Routess() {
     let routes = useRoutes([
-        { path: '/', element: <HomePage /> },
+        { path: '/', element: <LandingPage /> },
         { path: 'bookingpage', element: <BookingPage /> },
         { path: 'about', element: <About /> },
         { path: 'contact', element: <Contact /> },

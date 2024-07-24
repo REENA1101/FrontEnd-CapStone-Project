@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import LandingPage from './component/LandingPage';
 import Footer from './component/Footer';
@@ -26,7 +25,7 @@ function App() {
             <Router>
               <Routess />
             </Router>
-          <LandingPage />
+          {/* <LandingPage /> */}
           {/* <HomePage/> */}
           <Footer />
     </div>
