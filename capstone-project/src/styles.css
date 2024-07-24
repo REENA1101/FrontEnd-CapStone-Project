@@ -21,12 +21,23 @@ h1 {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    /* margin-left: 10px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+  }
+
+  nav ul li a{
+    /* margin-left: -100px; */
   }
 
   nav{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
   }
 
   /* Images */
@@ -35,3 +46,88 @@ h1 {
     height: auto;
     border-radius: 8px;
   }
+
+
+/* App.css FILEEEEEEEEEEEEEEEEEEEEEEE STYLE */
+body{
+  margin: 0;
+  padding:0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+nav ul li{
+  display:flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+
+.header p{
+  font-size: small;
+  margin-top: 0;
+  margin-left: 16px;
+}
+
+.header img{
+  width: 200px;
+  display: flex;
+  margin-right: 200px;
+  margin-top:20px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 300vh;
+  background-color: rgba(232, 97, 35, 0.895);
+}
+
+.container h1{
+  color: white;
+}
+
+.main {
+  flex-grow: 1;
+  /* Main content styles */
+}
+
+.footer {
+  /* Footer styles */
+}
+
+/* Media queries for responsiveness */
+/* @media (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+  } */
+  /* Other media query styles */
+/* } */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.search-container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.fa-search {
+  font-size: 18px;
+  color: #999;
+}
+
