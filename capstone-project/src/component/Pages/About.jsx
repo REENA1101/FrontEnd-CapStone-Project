@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div>
           <div className='aboutPage'>
-      <h1> Little Lemon: Your Culinary Companion</h1>
+        <h1> Little Lemon: Your Culinary Companion</h1>
 
         Discover the epitome of dining convenience with Little Lemon. Our restaurant app is your 
         passport to a world of culinary delights and effortless planning. Imagine the freedom to 

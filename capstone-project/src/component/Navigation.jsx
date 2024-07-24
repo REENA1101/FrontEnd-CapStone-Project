@@ -8,7 +8,7 @@ export default function Navigation() {
                 <Header />
                 <div class="search-container">
                   <input type="text" placeholder="Search"></input>
-                  <button type="submit"><i class="fa fa-search"></i></button>
+                  {/* <button type="submit"><i class="fa fa-search"></i></button> */}
                 </div>
                 <li ><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
