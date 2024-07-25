@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Chicago() {
   return (
-    <div>Chicago</div>
+    <div style={{marginTop:"110px"}}>Chicago</div>
   )
 }
