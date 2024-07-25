@@ -34,7 +34,7 @@ const FoodSlider = () => {
     slidesToScroll: 1,
     lazyLoad: false, // Preload all images
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 5000, // Preload all images
+    autoplaySpeed: 4000, // Preload all images
   };
 
   const [isAutoplayOn, setIsAutoplayOn] = useState(true);

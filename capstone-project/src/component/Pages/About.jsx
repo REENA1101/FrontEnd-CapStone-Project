@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../Footer'
+import BackToTopButton from '../FunctionalComps/BackToTopButton'
 
 export default function About() {
   return (
@@ -18,6 +19,8 @@ export default function About() {
         passionate team, and discover the inspiration behind our delectable dishes. Join us on a culinary adventure
         where tradition meets innovation. Let Little Lemon be your trusted companion on every gastronomic journey. 
       </div>
+
+       <BackToTopButton/>
     </div>
   )
 }
