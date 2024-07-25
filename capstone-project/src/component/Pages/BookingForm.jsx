@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch }) => {
+const BookingForm = ({ selectedDate, setSelectedDate, availableTimes, dispatch }) => {
   const handleDateChange = (event) => {
     setSelectedDate(new Date(event.target.value));
-    dispatch({ type: 'UPDATE_TIMES', payload: new Date(event.target.value) });
+    updateTimes(new Date(event.target.value));
   };
 
 
