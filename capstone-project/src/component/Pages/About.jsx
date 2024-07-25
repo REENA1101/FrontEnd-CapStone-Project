@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Footer'
 import BackToTopButton from '../FunctionalComps/BackToTopButton'
 
 export default function About() {

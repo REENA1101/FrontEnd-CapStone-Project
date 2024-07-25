@@ -11,7 +11,7 @@ const BookingPage = (props) => {
       updateTimes={props.updateTimes}
     />
 
-<BackToTopButton/>
+   <BackToTopButton/>
     </>
   );
 };

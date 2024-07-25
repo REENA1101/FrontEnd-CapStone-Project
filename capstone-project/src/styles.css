@@ -161,7 +161,7 @@ nav ul li{
 
 /* Landing Page images */
 .landingpage {
-  margin-top: 30px;
+  margin-top: 110px;
 }
 
 .landingpage div{
@@ -193,7 +193,8 @@ nav ul li{
     color:#979797;
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 1000px;
+    margin-top: 110px;
 }
 
 .aboutPage h1{
@@ -203,10 +204,11 @@ nav ul li{
 
 /* Form Style */
 .booking{
-  margin-top: 30px;
+  margin-top: 110px;
 }
 
 form {
+  margin-top: 110px;
   width:900px;
   display: grid;
   gap: 1rem;
@@ -216,8 +218,7 @@ form {
   background-color: #fcfcfc;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-  margin-bottom: 40px;
-  margin-top: 30px;
+  margin-bottom: 1000px;
 }
 
 label {
