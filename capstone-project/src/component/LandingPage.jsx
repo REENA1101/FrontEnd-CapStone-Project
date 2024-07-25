@@ -2,6 +2,7 @@ import React from 'react'
 import main1 from '../images/main1.png';
 import main2 from "../images/main2.png";
 import FoodSlider from './FunctionalComps/FoodSlider';
+import BackToTopButton from './FunctionalComps/BackToTopButton';
 
 export default function LandingPage() {
   return (
@@ -16,6 +17,7 @@ export default function LandingPage() {
           </div>
 
         <img src={main2} alt="Main2"/>
+        <BackToTopButton/>
     </div>
   )
 }
