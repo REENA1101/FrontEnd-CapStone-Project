@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { fetchAPI } from './api';
 
 const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch, updateTimes }) => {
   const handleDateChange = (event) => {
@@ -12,6 +13,16 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
   const [numberOfGuests, setNumberOfGuests] = useState(1);
   const [occasion, setOccasion] = useState('');
   const availableTimes = ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
+  const [availableeTimes, setAvailableeTimes] = useState([]);
+
+  useEffect(() => {
+    const fetchTimes = async () => {
+      const response = await fetchAPI(selectedDate);
+      setAvailableeTimes(response);
+    };
+
+    fetchTimes();
+  }, [selectedDate]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
