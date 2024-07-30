@@ -6,7 +6,7 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
     updateTimes(new Date(event.target.value));
   };
 
-  const [selectedDate, setSelectedDate] = useState(new Date());
+
   const [reservationDate, setReservationDate] = useState('');
   const [reservationTime, setReservationTime] = useState('');
   const [numberOfGuests, setNumberOfGuests] = useState(1);
@@ -22,15 +22,12 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
   return (
     <form onSubmit={handleSubmit} style={{ display: 'grid', maxWith: '200px', gap: '20px', marginTop:'110px' }}>
       <label htmlFor="res-date">Choose date</label>
-       <input
+      <input
         type="date"
         id="res-date"
         value={reservationDate}
-        onChange={(e) => {
-          setReservationDate(e.target.value);
-          handleDateChange(e);
-        }}
-        />
+        onChange={(e) => setReservationDate(e.target.value)}
+      />
       <label htmlFor="res-time">Choose time</label>
       <select
         id="res-time"
@@ -118,14 +115,14 @@ export default BookingForm;
 //   return (
 //     <form onSubmit={handleSubmit} style={{ display: 'grid', maxWidth: '200px', gap: '20px', marginTop: '110px' }}>
 //       <label htmlFor="res-date">Choose date</label>
-      // <input
-      //   type="date"
-      //   id="res-date"
-      //   value={reservationDate}
-      //   onChange={(e) => {
-      //     setReservationDate(e.target.value);
-      //     handleDateChange(e);
-      //   }}
+//       <input
+//         type="date"
+//         id="res-date"
+//         value={reservationDate}
+//         onChange={(e) => {
+//           setReservationDate(e.target.value);
+//           handleDateChange(e);
+//         }}
 //       />
 //       <label htmlFor="res-time">Choose time</label>
 //       <select
