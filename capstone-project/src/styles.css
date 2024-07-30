@@ -304,11 +304,10 @@ button[type="submit"]:hover {
   color:#cacaca;
   margin-top: 40px;
 }
-
-footer .{
+/* 
+.footerDivOne div{
   display: flex;
   justify-content: space-between;
-  
-}
+} */
 
 
