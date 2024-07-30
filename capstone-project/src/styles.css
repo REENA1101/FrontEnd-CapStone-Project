@@ -13,6 +13,8 @@ h1 {
     line-height: 1.5;
     color: #666;
     margin: 1rem 0;
+    text-align: center;
+
   }
 
   /* Navigation */
@@ -111,11 +113,6 @@ nav ul li{
 
 .main {
   flex-grow: 1;
-  /* Main content styles */
-}
-
-.footer {
-  /* Footer styles */
 }
 
 /* Media queries for responsiveness */
@@ -135,13 +132,11 @@ nav ul li{
   border: none;
   height: 60px;
   margin-top: 7px;
-  /* width:60px; */
 }
 
 .search-container input[type="text"] {
   flex: 1;
   padding: 8px;
-  /* border: none; */
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -174,7 +169,7 @@ nav ul li{
   height: 500px;
   /* Add your custom styles here */
   margin-bottom: 50px;
-  
+
 }
 
 .slick-slide img {
@@ -256,7 +251,7 @@ button[type="submit"]:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #333;
+  background-color: #353333;
   color: #fff;
   border-radius: 50%;
   width: 40px;
@@ -290,6 +285,30 @@ button[type="submit"]:hover {
 }
 
 .navbar-hidden {
-  top: -100px; /* Adjust based on navbar height */
+  top: -100px;
 }
+
+
+/* Footer */
+.footerDivOne{
+  display: flex;
+  justify-content: space-between;
+  height: 900px;
+  background-color: #353333;
+  max-width:min-content;
+  height: 300px;
+  width: 1900px;
+  border-radius: 8px;
+  margin-top:30px;
+  padding:20px;
+  color:#cacaca;
+  margin-top: 40px;
+}
+
+footer .{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
 
