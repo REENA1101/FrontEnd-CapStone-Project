@@ -1,4 +1,5 @@
 import React from 'react'
+import footerLogo from "../images/footer.png"
 
 
 export default function Footer() {
@@ -6,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
         <div className='footerDivOne'>
         <div className='footerDivDivOne'>
-               <img src="../images/footer.png" alt="logoPhoto"/>
+               <img src={footerLogo} alt="logoPhoto"/>
               </div>
 
               <div className='footerDivDivTwo'>
