@@ -317,7 +317,7 @@ button[type="submit"]:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #353333;
-  width: 100%;
+  width: 300%;
   height: 300px;
   border-radius: 8px;
   margin-top: 40px;
@@ -333,18 +333,20 @@ button[type="submit"]:hover {
   color: #cacaca;
   margin-right: 15px;
   text-decoration: none;
+
 }
 
 .footerDivDivTwo a:hover {
   text-decoration: underline;
+  
 }
 
-.footerDivDivThree, .footerDivDivFour {
+/* .footerDivDivThree, .footerDivDivFour {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-}
+} */
 
 

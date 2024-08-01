@@ -11,15 +11,21 @@ export default function Footer() {
               </div>
 
               <div className='footerDivDivTwo'>
-                 <a>Home</a>
-                 <a>About Us</a>
-                 <a>Book Your Spot Now</a>
-                 <a>Contact US</a>
-                 <a>Our Chicago Branch</a>
+                  <ul>
+                     <li><h3>Site Links</h3></li>
+                     <li><a>Home</a></li>
+                     <li> <a>About Us</a></li>
+                     <li><a>Book Your Spot Now</a></li>
+                     <li><a>Contact US</a></li>
+                     <li><a>Our Chicago Branch</a></li>
+                  </ul>
               </div>
 
               <div className='footerDivDivThree'>
-                 <text> Contact Us </text>
+               <ul>
+               <li> Contact Us </li>
+               </ul>
+                 
               </div>
 
               <div className='footerDivDivFour'>
