@@ -5,6 +5,7 @@ import footerLogo from "../images/footer.png"
 export default function Footer() {
   return (
     <footer className="footer">
+      <div className='complete'>
         <div className='footerDivOne'>
         <div className='footerDivDivOne'>
                <img src={footerLogo} alt="logoPhoto"/>
@@ -25,17 +26,15 @@ export default function Footer() {
                <ul>
                <li> Contact Us </li>
                </ul>
-                 
               </div>
 
               <div className='footerDivDivFour'>
                  <text></text>
               </div>
               </div>
-              <div>
               <p> &copy; Little Lemon 2023</p>
-              </div>
 
+              </div>
 
     </footer>
   )

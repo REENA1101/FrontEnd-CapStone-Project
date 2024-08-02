@@ -6,7 +6,7 @@ import BackToTopButton from './FunctionalComps/BackToTopButton';
 
 export default function LandingPage() {
   return (
-    <div className="landingpage" style={{ marginLeft: '40px', marginRight: '40px'}}>
+    <div className="landingpage" style={{ marginLeft: '100px', marginRight: '40px'}}>
 
         <FoodSlider />
 
