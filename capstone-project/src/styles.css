@@ -186,8 +186,6 @@ nav ul li{
     color:#979797;
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 1000px;
-    margin-top: 110px;
 }
 
 .aboutPage h1{
@@ -211,7 +209,7 @@ form {
   background-color: #fcfcfc;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-  margin-bottom: 1000px;
+  /* margin-bottom: 40px; */
 }
 
 label {
@@ -286,31 +284,7 @@ button[type="submit"]:hover {
   top: -100px;
 }
 
-
 /* Footer */
-/* .footerDivOne{
-  display: flex;
-  justify-content: space-between;
-  height: 900px;
-  background-color: #353333;
-  max-width:min-content;
-  height: 300px;
-  width: 1900px;
-  border-radius: 8px;
-  margin-top:30px;
-  padding:20px;
-  color:#cacaca;
-  margin-top: 40px;
-} */
-
-/*
-.footerDivOne div{
-  display: flex;
-  justify-content: space-between;
-} */
-
-/* Footer */
-
 .footer{
    
 }
@@ -321,10 +295,10 @@ button[type="submit"]:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #353333;
-  width: 100%;
+  width: 99%;
   height: 270px;
   border-radius: 0px;
-  margin-top: 40px;
+  margin-top: 60px;
   color: #cacaca;
   margin-left: 10px;
   padding: 90px;
@@ -335,6 +309,7 @@ button[type="submit"]:hover {
 .footerDivDivOne img {
   height: 90px;
   margin-left: -23px;
+  margin-top:-24px;
 }
 
 .footerDivDivTwo a {
@@ -344,6 +319,10 @@ button[type="submit"]:hover {
 }
 
 .footerDivDivTwo a:hover {
+  text-decoration: underline;
+}
+
+.footerDivDivFour a:hover {
   text-decoration: underline;
 }
 
