@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <img src={logo} alt="Little Lemon Logo" />
-      <p>Little Lemon Restaurant</p>
+      <p style={{marginLeft:"-200px"}}>Little Lemon Restaurant</p>
     </header>
   );
 }

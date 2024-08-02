@@ -12,7 +12,7 @@ h1 {
     font-size: 1.2rem;
     line-height: 1.5;
     color: #666;
-    margin: 1rem 0;
+    margin: 0rem 0;
     text-align: center;
 
   }
@@ -310,6 +310,12 @@ button[type="submit"]:hover {
 } */
 
 /* Footer */
+
+.footer{
+   
+}
+
+
 .footerDivOne {
   display: flex;
   justify-content: space-between;
@@ -319,13 +325,17 @@ button[type="submit"]:hover {
   height: 270px;
   border-radius: 0px;
   margin-top: 40px;
-  padding: 20px;
   color: #cacaca;
-  margin-left: 0px;
+  margin-left: 10px;
+  padding: 90px;
+  padding-left: 120px;
+  align-items: center;
+  /* text-align: center; */
 }
 
 .footerDivDivOne img {
-  height: 80px; /* Adjust based on your logo size */
+  height: 90px; 
+  margin-left: -23px;
 }
 
 .footerDivDivTwo a {
@@ -341,6 +351,13 @@ button[type="submit"]:hover {
 .complete{
   background-color: #353333;
   margin-bottom: 0px;
+}
+
+.footerImageTitle{
+  color: #cacaca;
+  margin-left: -28px;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 /* .footerDivDivThree, .footerDivDivFour {

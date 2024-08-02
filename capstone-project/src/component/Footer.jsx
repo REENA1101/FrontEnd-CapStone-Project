@@ -9,6 +9,7 @@ export default function Footer() {
         <div className='footerDivOne'>
         <div className='footerDivDivOne'>
                <img src={footerLogo} alt="logoPhoto"/>
+               <p className='footerImageTitle'>Little Lemon Restaurant</p>
               </div>
 
               <div className='footerDivDivTwo'>
