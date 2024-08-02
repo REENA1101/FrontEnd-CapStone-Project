@@ -31,10 +31,10 @@ export default function Footer() {
               <div className='footerDivDivFour'>
                  <text></text>
               </div>
-        </div>
-
-
-          <p> &copy; Little Lemon 2023</p>
+              </div>
+              <div>
+              <p> &copy; Little Lemon 2023</p>
+              </div>
 
 
     </footer>
