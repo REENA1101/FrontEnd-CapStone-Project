@@ -330,11 +330,10 @@ button[type="submit"]:hover {
   padding: 90px;
   padding-left: 120px;
   align-items: center;
-  /* text-align: center; */
 }
 
 .footerDivDivOne img {
-  height: 90px; 
+  height: 90px;
   margin-left: -23px;
 }
 
@@ -360,12 +359,5 @@ button[type="submit"]:hover {
   margin-top: 10px;
 }
 
-/* .footerDivDivThree, .footerDivDivFour {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-} */
 
 
