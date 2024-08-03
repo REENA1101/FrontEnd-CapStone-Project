@@ -11,15 +11,20 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
   const [reservationTime, setReservationTime] = useState('');
   const [numberOfGuests, setNumberOfGuests] = useState(1);
   const [occasion, setOccasion] = useState('');
+  const [showNotification, setShowNotification] = useState(false);
   const availableTimes = ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
 
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission logic here
     console.log(reservationDate, reservationTime, numberOfGuests, occasion);
+    setShowNotification(true);
+    setTimeout(() => setShowNotification(false), 3000);
+    // alert('Thank you for your reservation');
   };
 
   return (
+    <div>
     <form onSubmit={handleSubmit} style={{ display: 'grid', maxWith: '200px', gap: '20px', marginTop:'110px' }}>
       <label htmlFor="res-date">Choose date</label>
       <input
@@ -62,6 +67,14 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
       </select>
       <input type="submit" value="Make Your Reservation" />
     </form>
+
+    {showNotification && (
+        <div style={{ marginBottom: '-300px', marginLeft:"485px",  padding: '36px', backgroundColor: '#353333', color: '#cacaca', width:"300px",height:"120px", zIndex:"1000", borderRadius: '5px',textAlign:"center", position: 'absolute' }}>
+          Thank you for your reservation!
+        </div>
+      )}
+
+    </div>
   );
 };
 

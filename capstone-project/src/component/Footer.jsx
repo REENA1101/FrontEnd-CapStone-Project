@@ -40,7 +40,7 @@ export default function Footer() {
                   <a><li>Instagram</li></a>
                   <a><li>facebook</li></a>
                   <a><li>Youtube</li></a>
-                  <a><li>Dribble</li></a>
+                  <a><li>Twitter</li></a>
                   <li>...</li>
                </ul>
               </div>
