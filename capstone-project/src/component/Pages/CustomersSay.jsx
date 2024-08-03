@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function CustomersSay() {
   return (
-    <div>CustomersSay</div>
+    <div>
+      <div></div>
+    </div>
   )
 }

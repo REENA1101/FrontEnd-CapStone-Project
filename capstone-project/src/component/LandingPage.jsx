@@ -4,6 +4,7 @@ import main2 from "../images/main2.png";
 import FoodSlider from './FunctionalComps/FoodSlider';
 import BackToTopButton from './FunctionalComps/BackToTopButton';
 import chef from "../images/ChefPhoto.jpg"
+import CustomersSay from './Pages/CustomersSay';
 
 export default function LandingPage() {
   return (
@@ -20,7 +21,6 @@ export default function LandingPage() {
               </div>
           </div>
 
-        
 
         <img style={{marginTop:"30px", height:"400px", width:"1050px",marginBottom:"40px"}} src={main1} alt="Main1" />
 
@@ -28,6 +28,7 @@ export default function LandingPage() {
 
 
         <img style={{marginTop:"", height:"480px", width:"1050px"}} src={main2} alt="Main2"/>
+        <CustomersSay/>
         <BackToTopButton/>
     </div>
   )
