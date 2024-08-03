@@ -326,6 +326,10 @@ button[type="submit"]:hover {
   text-decoration: underline;
 }
 
+.footerDivDivThree a:hover {
+  text-decoration: underline;
+}
+
 .complete{
   background-color: #353333;
   margin-bottom: 0px;
