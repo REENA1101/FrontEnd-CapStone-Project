@@ -1,0 +1,20 @@
+.custom-slick-dots {
+    position: relative !important;
+    bottom: auto !important;
+    margin-top: 10px; /* Adjust the margin as needed */
+    display: flex !important;
+    justify-content: center;
+  }
+  
+  .custom-slick-dots li {
+    margin: 0 5px; /* Adjust the spacing between dots as needed */
+  }
+  
+  .custom-slick-dots li button:before {
+    color: #000; /* Change dot color as needed */
+  }
+  
+  .custom-slick-dots li.slick-active button:before {
+    color: #fff; /* Change active dot color as needed */
+  }
+  

@@ -154,19 +154,19 @@ nav ul li{
 }
 
 .landingpage div{
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 /* Slider */
 .slick-slider {
   width: 1050px;
   height: 500px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .slick-slide img {
   width: 1050px;
-  height: 500px;
+  height: 400px;
   object-fit: cover;
 }
 

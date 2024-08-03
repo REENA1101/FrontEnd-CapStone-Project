@@ -14,6 +14,8 @@ import image8 from "../../images/image8.jpg";
 import image9 from "../../images/image9.jpg";
 import image10 from "../../images/image10.jpg";
 import image11 from "../../images/image11.jpg";
+import { position } from '@chakra-ui/react';
+import './FoodSlider.css';
 
 
 const foodImages = [
@@ -46,7 +48,7 @@ const FoodSlider = () => {
 
   return (
     <>
-      <Slider {...settings} style={{ marginBottom: '40px' }}>
+      <Slider {...settings} >
         {foodImages.map((image, index) => (
           <div key={index}>
             <img src={image} alt={`Food Image ${index + 1}`} />

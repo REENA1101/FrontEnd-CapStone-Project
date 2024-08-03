@@ -16,16 +16,18 @@ export default function LandingPage() {
                 <button style={{backgroundColor:"#353333",color:"white", padding:"8px", borderRadius:"5px", marginTop:"25px"}}>Reserve Your Table</button>
                 </div>
             <div>
-              <img style={{width:"300px", marginRight:"-20px"}} src={chef} alt="chefPhoto"/>
+              <img style={{width:"400px", marginRight:"-20px"}} src={chef} alt="chefPhoto"/>
               </div>
           </div>
 
+        
+
+        <img style={{marginTop:"30px", height:"400px", width:"1050px",marginBottom:"40px"}} src={main1} alt="Main1" />
+
         <FoodSlider />
 
-        <img src={main1} alt="Main1" />
 
-
-        <img src={main2} alt="Main2"/>
+        <img style={{marginTop:"", height:"480px", width:"1050px"}} src={main2} alt="Main2"/>
         <BackToTopButton/>
     </div>
   )
