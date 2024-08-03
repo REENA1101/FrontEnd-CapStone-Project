@@ -32,9 +32,8 @@ h1 {
   }
 
   .landingpage div{
-    background-color: white;
-    height: 400px;
-    border-radius: 8px;
+    
+    /* width:300px; */
     /* margin-left: 40px;
     margin-right: 40px; */
   }
@@ -45,7 +44,7 @@ h1 {
 
   .main2{
     padding:80px;
-    margin-top: 20px;
+    margin-top: px;
   }
 
   .main2 h1{
