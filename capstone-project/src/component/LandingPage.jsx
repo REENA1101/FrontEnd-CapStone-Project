@@ -13,10 +13,10 @@ export default function LandingPage() {
                 <h1>LITTLE </h1>
                 <h1>LEMON RESTAURANT</h1>
                 <h1>CHICAGO</h1>
-                <button style={{backgroundColor:"#353333",color:"white", padding:"10px"}}>Reserve Your Table</button>
+                <button style={{backgroundColor:"#353333",color:"white", padding:"8px", borderRadius:"5px", marginTop:"25px"}}>Reserve Your Table</button>
                 </div>
             <div>
-              <img style={{width:"400px"}} src={chef} alt="chefPhoto"/>
+              <img style={{width:"300px", marginRight:"-20px"}} src={chef} alt="chefPhoto"/>
               </div>
           </div>
 
