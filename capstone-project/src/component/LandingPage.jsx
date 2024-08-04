@@ -26,7 +26,7 @@ export default function LandingPage() {
           </div>
 
 
-        <img style={{marginTop:"30px", height:"400px", width:"1050px",marginBottom:"40px"}} src={main1} alt="Main1" />
+        <img style={{marginTop:"30px", height:"400px", width:"1050px",marginBottom:"40px", borderRadius:"50px"}} src={main1} alt="Main1" />
 
         <FoodSlider />
 
