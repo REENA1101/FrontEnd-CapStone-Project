@@ -12,15 +12,46 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
   const [numberOfGuests, setNumberOfGuests] = useState(1);
   const [occasion, setOccasion] = useState('');
   const [showNotification, setShowNotification] = useState(false);
+  const [notificationMessage, setNotificationMessage] = useState('');
   const availableTimes = ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    if (!reservationDate) {
+      setNotificationMessage('Please select a date.');
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 4000);
+      return;
+    }
+
+    if (!reservationTime) {
+      setNotificationMessage('Please select a time.');
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 4000);
+      return;
+    }
+
+    if (!numberOfGuests || numberOfGuests < 1) {
+      setNotificationMessage('Please enter a valid number of guests.');
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 4000);
+      return;
+    }
+
+    if (!occasion) {
+      setNotificationMessage('Please select an occasion.');
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 4000);
+      return;
+    }
+
+
     // Handle form submission logic here
     console.log(reservationDate, reservationTime, numberOfGuests, occasion);
     setShowNotification(true);
-    setTimeout(() => setShowNotification(false), 3000);
-    // alert('Thank you for your reservation');
+    setTimeout(() => setShowNotification(false), 4000);
+
   };
 
   return (
@@ -39,6 +70,7 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
         value={reservationTime}
         onChange={(e) => setReservationTime(e.target.value)}
       >
+         <option value="">Select a time</option>
         {availableTimes.map((time) => (
           <option key={time} value={time}>
             {time}
@@ -66,13 +98,16 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
         <option value="Anniversary">Anniversary</option>
       </select>
       <input type="submit" value="Make Your Reservation" />
+
     </form>
 
     {showNotification && (
-        <div style={{ marginBottom: '-300px', marginLeft:"485px",  padding: '36px', backgroundColor: '#353333', color: '#cacaca', width:"300px",height:"120px", zIndex:"1000", borderRadius: '5px',textAlign:"center", position: 'absolute' }}>
+        <div style={{ marginTop: '-220px', marginLeft:"485px",  padding: '36px', backgroundColor: '#353333', color: '#cacaca', width:"300px",height:"120px", zIndex:"100", borderRadius: '5px',textAlign:"center", position: 'absolute', fontSize:"20px" }}>
           Thank you for your reservation!
+          {{notificationMessage}}
         </div>
       )}
+
 
     </div>
   );
