@@ -15,7 +15,6 @@ import image9 from "../../images/image9.jpg";
 import image10 from "../../images/image10.jpg";
 import image11 from "../../images/image11.jpg";
 import { position } from '@chakra-ui/react';
-import './FoodSlider.css';
 
 
 const foodImages = [
