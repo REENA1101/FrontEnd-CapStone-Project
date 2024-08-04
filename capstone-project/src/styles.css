@@ -352,7 +352,7 @@ button[type="submit"]:hover {
 .main2button:hover {
   background-color: rgba(232, 97, 35, 0.895);
   color:white ;
-  border: 1px solid rgba(232, 97, 35, 0.895); /* Optional: Add border to maintain visual consistency */
+  border: 1px solid white /* Optional: Add border to maintain visual consistency */
 }
 
 .custItem{
