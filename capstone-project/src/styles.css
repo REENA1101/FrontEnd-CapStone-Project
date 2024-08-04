@@ -327,12 +327,13 @@ button[type="submit"]:hover {
   align-items: center;
   padding: 20px;
   background-color: white;
-  margin-top: 40px;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
 .custItem img {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 180px;
   border-radius: 10px;
 }
 
@@ -355,8 +356,24 @@ button[type="submit"]:hover {
 
 .custItem{
   background-color: #353333;
+  width:1050px
 }
 
+.custItem h3{
+  font-weight:bold;
+   font-size: large;
+}
+
+/* Stars */
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.stars .star {
+  margin: 0; /* Remove margin to eliminate gaps */
+}
 
 
 
