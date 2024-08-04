@@ -21,7 +21,7 @@ export default function LandingPage() {
                 </Link>
                 </div>
             <div>
-              <img style={{width:"420px", marginRight:"-20px", marginLeft:"30px",}} src={chef} alt="chefPhoto"/>
+              <img style={{width:"420px", marginRight:"-20px", marginLeft:"30px"}} src={chef} alt="chefPhoto"/>
               </div>
           </div>
 
@@ -31,7 +31,7 @@ export default function LandingPage() {
         <FoodSlider />
 
 
-        <img style={{marginTop:"", height:"480px", width:"1050px"}} src={main2} alt="Main2"/>
+        <img style={{marginTop:"40px", height:"480px", width:"1050px"}} src={main2} alt="Main2"/>
         <CustomersSay/>
         <BackToTopButton/>
     </div>

@@ -83,7 +83,6 @@ nav ul li{
 }
 
 .container {
-  /* align-items: center; */
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -146,7 +145,7 @@ nav ul li{
 .slick-slider {
   width: 1050px;
   height: 400px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .slick-slide img {
@@ -320,7 +319,7 @@ button[type="submit"]:hover {
 
 
 /* CustomerSays */
-.customerSay {
+.customerSay div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -352,6 +351,10 @@ button[type="submit"]:hover {
   background-color: rgba(232, 97, 35, 0.895);
   color:white ;
   border: 1px solid rgba(232, 97, 35, 0.895); /* Optional: Add border to maintain visual consistency */
+}
+
+.custItem{
+  background-color: #353333;
 }
 
 
