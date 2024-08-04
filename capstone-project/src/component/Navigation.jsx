@@ -23,7 +23,7 @@ const Navigation = () => {
       <ul >
           <Header />
               <div className="search-container">
-                <input type="text" placeholder="Search Items"></input>
+                <input type="text" placeholder="Search Items..."></input>
                 {/* <button type="submit"><i class="fa fa-search"></i></button> */}
               </div>
                   <li ><a href="/">Home</a></li>
