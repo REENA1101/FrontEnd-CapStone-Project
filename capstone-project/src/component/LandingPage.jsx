@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export default function LandingPage() {
   return (
     <div className="landingpage" style={{ marginLeft: '105px', marginRight: '40px'}}>
-         <div className='main2' style={{display:"flex",  justifyContent:"space-between", backgroundColor: 'white', height: '360px', borderRadius: '8px'}}>
+         <div className='main2' style={{display:"flex", backgroundColor: 'white', height: '360px', borderRadius: '8px'}}>
               <div>
                 <h1 style={{fontSize:'40px', paddingTop:"20px"}}>LITTLE </h1>
                 <h1 style={{fontSize:'40px'}}>LEMON RESTAURANT</h1>
@@ -21,12 +21,12 @@ export default function LandingPage() {
                 </Link>
                 </div>
             <div>
-              <img style={{width:"420px", marginRight:"-20px", marginLeft:"30px"}} src={chef} alt="chefPhoto"/>
+              <img style={{width:"420px", marginRight:"-20px", marginLeft:"120px"}} src={chef} alt="chefPhoto"/>
               </div>
           </div>
 
 
-        <img style={{marginTop:"30px", height:"400px", width:"1050px",marginBottom:"40px"}} src={main1} alt="Main1" />
+        <img style={{marginTop:"40px", height:"400px", width:"1050px",marginBottom:"40px"}} src={main1} alt="Main1" />
 
         <FoodSlider />
 

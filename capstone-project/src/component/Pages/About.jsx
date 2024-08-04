@@ -1,5 +1,6 @@
 import React from 'react'
 import BackToTopButton from '../FunctionalComps/BackToTopButton'
+import { Link } from 'react-router-dom'
 
 export default function About() {
   return (
@@ -17,6 +18,12 @@ export default function About() {
         Beyond reservations, our app offers a glimpse into the heart of Little Lemon. Explore our story, meet our
         passionate team, and discover the inspiration behind our delectable dishes. Join us on a culinary adventure
         where tradition meets innovation. Let Little Lemon be your trusted companion on every gastronomic journey. 
+
+        <div> 
+            <Link to="/bookingpage">
+                  <button className="main2button" >Reserve Your Table Now</button>
+            </Link>
+        </div>
       </div>
 
        <BackToTopButton/>
