@@ -32,7 +32,7 @@ const Navigation = () => {
                   <li><a href="/contact">Contact</a></li>
                   <li><a href="/chicago">Chicago</a></li>
                   </ul>
-    </nav>
+        </nav>
   );
 };
 
