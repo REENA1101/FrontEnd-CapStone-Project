@@ -367,12 +367,16 @@ button[type="submit"]:hover {
 /* Stars */
 .stars {
   display: flex;
-  justify-content: center;
-  margin-top: 5px;
+  justify-content: space-between;
+  /* margin-top: 5px; */
 }
 
 .stars .star {
   margin: 0; /* Remove margin to eliminate gaps */
+}
+
+.custItem div{
+  width:600px
 }
 
 

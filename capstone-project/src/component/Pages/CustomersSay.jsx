@@ -16,6 +16,9 @@ export default function CustomersSay() {
         fill={i < rating ? "gold" : "gray"}
         width="18px"
         height="18px"
+        display="flex"
+        justify-content="center"
+        margin="-30px"
       >
         <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z"/>
       </svg>
