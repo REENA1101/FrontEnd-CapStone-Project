@@ -14,7 +14,7 @@ export default function LandingPage() {
               <div>
                 <h1 style={{fontSize:'40px', paddingTop:"20px"}}>LITTLE </h1>
                 <h1 style={{fontSize:'40px'}}>LEMON RESTAURANT</h1>
-                <h1 style={{fontSize:'40px'}}>CHICAGO</h1>
+                <h1 style={{fontSize:'40px'}}>NEW YORK</h1>
 
                 <Link to="/bookingpage">
                 <button className="main2button" >Reserve Your Table</button>
