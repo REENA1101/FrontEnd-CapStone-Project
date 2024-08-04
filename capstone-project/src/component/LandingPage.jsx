@@ -5,6 +5,7 @@ import FoodSlider from './FunctionalComps/FoodSlider';
 import BackToTopButton from './FunctionalComps/BackToTopButton';
 import chef from "../images/ChefPhoto.jpg"
 import CustomersSay from './Pages/CustomersSay';
+import { Link } from 'react-router-dom';
 
 export default function LandingPage() {
   return (
@@ -14,7 +15,10 @@ export default function LandingPage() {
                 <h1 style={{fontSize:'40px', paddingTop:"20px"}}>LITTLE </h1>
                 <h1 style={{fontSize:'40px'}}>LEMON RESTAURANT</h1>
                 <h1 style={{fontSize:'40px'}}>CHICAGO</h1>
+
+                <Link to="/bookingpage">
                 <button style={{backgroundColor:"#353333",color:"white", padding:"8px", borderRadius:"5px", marginTop:"25px"}}>Reserve Your Table</button>
+                </Link>
                 </div>
             <div>
               <img style={{width:"420px", marginRight:"-20px", marginLeft:"30px",}} src={chef} alt="chefPhoto"/>
