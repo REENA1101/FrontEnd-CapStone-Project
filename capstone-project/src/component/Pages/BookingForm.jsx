@@ -12,7 +12,6 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
   const [numberOfGuests, setNumberOfGuests] = useState(1);
   const [occasion, setOccasion] = useState('');
   const [showNotification, setShowNotification] = useState(false);
-  // const [notificationMessage, setNotificationMessage] = useState('');
   const [dateError, setDateError] = useState('');
   const [timeError, setTimeError] = useState('');
   const [guestsError, setGuestsError] = useState('');
@@ -22,34 +21,6 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    // if (!reservationDate) {
-    //   setNotificationMessage('Please select a date.');
-    //   setShowNotification(true);
-    //   setTimeout(() => setShowNotification(false), 4000);
-    //   return;
-    // }
-
-    // if (!reservationTime) {
-    //   setNotificationMessage('Please select a time.');
-    //   setShowNotification(true);
-    //   setTimeout(() => setShowNotification(false), 4000);
-    //   return;
-    // }
-
-    // if (!numberOfGuests || numberOfGuests < 1) {
-    //   setNotificationMessage('Please enter a valid number of guests.');
-    //   setShowNotification(true);
-    //   setTimeout(() => setShowNotification(false), 4000);
-    //   return;
-    // }
-
-    // if (!occasion) {
-    //   setNotificationMessage('Please select an occasion.');
-    //   setShowNotification(true);
-    //   setTimeout(() => setShowNotification(false), 4000);
-    //   return;
-    // }
 
     let valid=true;
 
@@ -151,12 +122,8 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
     {showNotification && (
         <div style={{ marginTop: '-220px', marginLeft:"485px",  padding: '30px', backgroundColor: '#353333', color: '#cacaca', width:"300px",height:"120px", zIndex:"100", borderRadius: '5px',textAlign:"center", position: 'absolute', fontSize:"20px" }}>
           Thank you for your reservation!
-          {/* {{notificationMessage}} */}
-          
         </div>
       )}
-
-
     </div>
   );
 };
