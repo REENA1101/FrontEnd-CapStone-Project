@@ -24,7 +24,7 @@ export default function Footer() {
               </div>
 
               <div className='footerDivDivFour'>
-              <h2 style={{fontSize:'24px', marginBottom:"10px"}}> Our Restaurants In </h2>
+              <h2 style={{fontSize:'24px', marginBottom:"10px"}}> Our Restaurants </h2>
               <ul style={{listStyleType: 'none'}}>
                   <li><a href="#">Chicago</a></li>
                   <li><a href="#">Tokyo</a></li>
