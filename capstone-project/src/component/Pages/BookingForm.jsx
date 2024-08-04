@@ -115,7 +115,6 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
       {occasionError && <div style={{ color: 'red' }}>{occasionError}</div>}
 
 
-
       <input type="submit" value="Make Your Reservation" />
     </form>
 

@@ -25,14 +25,6 @@ h1 {
     padding-right: 20px;
   }
 
-  nav ul li a{
-    /* margin-left: -100px; */
-  }
-
-  .landingpage div{
-    width:1050px;
-  }
-
   .landingpage div h1{
     color:#ccc;
   }
@@ -40,10 +32,6 @@ h1 {
   .main2{
     padding:40px;
     height:200px
-  }
-
-  .main2 h1{
-    /* margin-top: 10px; */
   }
 
   nav{
@@ -65,7 +53,7 @@ h1 {
   }
 
 
-/* App.css FILEEEEEEEEEEEEEEEEEEEEEEE STYLE */
+/* App.css FILE STYLE */
 body{
   margin: 0;
   padding:0;
@@ -148,14 +136,11 @@ nav ul li{
 }
 
 
-/* Landing Page images */
+/* Landing Page  */
 .landingpage {
   margin-top: 110px;
 }
 
-.landingpage div{
-  /* margin-bottom: 20px; */
-}
 
 /* Slider */
 .slick-slider {
@@ -177,7 +162,6 @@ nav ul li{
     border-radius: 8px;
     margin-top:110px;
     padding:40px 40px 20px 40px;
-    /* padding-bottom: 20px; */
     color:#979797;
     margin-left: 40px;
     margin-right: 40px;
@@ -285,7 +269,6 @@ button[type="submit"]:hover {
    
 }
 
-
 .footerDivOne {
   display: flex;
   justify-content: space-between;
@@ -338,10 +321,23 @@ button[type="submit"]:hover {
   margin-top: 10px;
 }
 
-.customerSay{
-  background-color: white;
-  margin-top: 40px;
+
+/* CustomerSays */
+.customerSay {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Optional: Adjust the space between grid items */
+  justify-items: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 20px; /* Optional: Add padding around the grid container */
 }
+
+.custItem img {
+  width: 200px; /* Ensure images take the full width of their container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
 
 
 
