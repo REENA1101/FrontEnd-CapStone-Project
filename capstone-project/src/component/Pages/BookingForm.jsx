@@ -100,7 +100,7 @@ const BookingForm = ({ selectedDate, setSelectedDate, availabledTimes, dispatch,
         onChange={(e) => setNumberOfGuests(Number(e.target.value))}
       />
 
-{guestsError && <div style={{ color: 'red' }}>{guestsError}</div>}
+      {guestsError && <div style={{ color: 'red' }}>{guestsError}</div>}
 
       <label htmlFor="occasion">Occasion</label>
       <select

@@ -71,8 +71,7 @@ nav ul li{
 
 .header p{
   font-size: small;
-  margin-top: 0;
-  margin-left: 8px;
+  margin-left:200px ;
 }
 
 .header img{
@@ -80,6 +79,7 @@ nav ul li{
   display: flex;
   margin-right: 200px;
   margin-top:10px;
+  margin-left:80px ;
 }
 
 .container {
@@ -265,9 +265,6 @@ button[type="submit"]:hover {
 }
 
 /* Footer */
-.footer{
-   
-}
 
 .footerDivOne {
   display: flex;
@@ -326,17 +323,39 @@ button[type="submit"]:hover {
 .customerSay {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px; /* Optional: Adjust the space between grid items */
-  justify-items: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-  padding: 20px; /* Optional: Add padding around the grid container */
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin-top: 40px;
 }
 
 .custItem img {
-  width: 200px; /* Ensure images take the full width of their container */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Optional: Add rounded corners */
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
 }
+
+.main2button {
+  background-color: #353333;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.main2button:hover {
+  background-color: rgba(232, 97, 35, 0.895);
+  color:white ;
+  border: 1px solid rgba(232, 97, 35, 0.895); /* Optional: Add border to maintain visual consistency */
+}
+
+
+
 
 
 

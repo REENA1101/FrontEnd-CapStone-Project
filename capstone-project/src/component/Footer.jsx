@@ -47,7 +47,6 @@ export default function Footer() {
 
               </div>
               <p> &copy; Little Lemon 2024</p>
-
               </div>
 
     </footer>
