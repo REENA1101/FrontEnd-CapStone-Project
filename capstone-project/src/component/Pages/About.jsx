@@ -19,7 +19,7 @@ export default function About() {
         passionate team, and discover the inspiration behind our delectable dishes. Join us on a culinary adventure
         where tradition meets innovation. Let Little Lemon be your trusted companion on every gastronomic journey. 
 
-        <div> 
+        <div>
             <Link to="/bookingpage">
                   <button className="main2button" >Reserve Your Table Now</button>
             </Link>
