@@ -3,19 +3,18 @@ Capstone project
 
 A Front End Capstone project having tech stack JS, CSS and HTML and using React, React-Router-Dom, Chakra etc. The web app is a Restaurant app named as Little Lemon Restaurant,
 
-The project contains:   1. Home Page also known as the Landing page of the site with a sliding Navbar and Reserve
+The project contains: 
+
+                        1. Home Page also known as the Landing page of the site with a sliding Navbar and Reserve
                            Table option with a timed/manual slider, and Visitor reviews , and lastly with a footer with a 
                            back to top button which slides and takes the user smoothly to the top.
+                           
                         2. About page: entailing some facts and details about the restaurant with a reserve table button and a footer and navbar as usual.
                         3. Booking Page: With a functionality of providing the users a form to reserve their seats online for the restaurant,
                            with a navbar and Footer and a back to top button as usual
                         4. All other pages are currently under construction including the responsiveness of the app.
-                        Thankyou...
 
-                        Home Page:
-                        
-                      
-                        
+Home Page:                                       
 ![Screenshot 2024-08-05 092815](https://github.com/user-attachments/assets/8dd325cf-a457-4f77-8100-9b0e57389dc1)
 
                            
@@ -64,6 +63,6 @@ Chicago Branch Page:
 ![Screenshot 2024-08-05 093658](https://github.com/user-attachments/assets/303a9ec5-0d5d-45b6-b1cb-bafc6f5c7fba)
 
 For a Live Preview of the App: https://stupendous-crumble-b845b5.netlify.app/
-Thats all for now, Thanks for viewing :)
+Thats all for now, Thanks for viewing...
 
 
