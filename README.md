@@ -1,7 +1,7 @@
 # FrontEnd-CapStone-Project
 Capstone project
 
-A Front End Capstone project having tech stack JS, CSS and HTML and using React, React-Router-Dom, Chakra etc. The web app is a Restaurant app named as Little Lemon Restaurant,
+A Front End Capstone project having tech stack JS, React and JSX and using libraries such as React, React-Router-Dom, Chakra etc. The web app is a Restaurant app named as Little Lemon Restaurant,
 
 The project contains: 
 
